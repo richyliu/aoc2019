@@ -25,4 +25,7 @@ int main() {
 
   printf("Part 1: %ld\n", fuel_sum_part1);
   printf("Part 2: %ld\n", fuel_sum_part2);
+
+  fclose(f);
+  return 0;
 }
